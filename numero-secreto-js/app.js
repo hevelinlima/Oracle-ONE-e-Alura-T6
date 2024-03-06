@@ -6,6 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag,texto){
   let tela = document.querySelector(tag);
   tela.innerHTML = texto;
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function mensagemInicial(){
