@@ -1,11 +1,18 @@
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-hover: #272727;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #000000;
-  color: #f6f6f6;
+  background: var(--cor-primaria);
+  color: var(--cor-secundaria);
   box-sizing: border-box;
 }
 
@@ -29,7 +36,7 @@ body {
 
 .nav-bar > nav > a {
   text-decoration: none;
-  color: #22d4fd;
+  color: var(--cor-terciaria);
 }
 
 .conteudo {
@@ -54,7 +61,7 @@ body {
 }
 
 .conteudo__texto > h1 > span {
-  color: #22d4fd;
+  color: var(--cor-terciaria);
 }
 
 .conteudo__texto > p {
@@ -90,9 +97,9 @@ body {
 
 .a__buttons > a {
   text-decoration: none;
-  color: #f6f6f6;
-  background: #000000;
-  border: 1px solid #22d4fd;
+  color: var(--cor-secundaria);
+  background: var(--cor-primaira);
+  border: 1px solid var(--cor-terciaria);
   width: 23.625rem;
   height: 4.25rem;
   border-radius: 8px;
@@ -105,13 +112,13 @@ body {
 }
 
 .a__buttons > a:hover {
-  background-color: #272727;
+  background-color: var(--cor-hover);
   cursor: default;
 }
 
 footer {
-  background-color: #22d4fd;
-  color: #000000;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 1.5rem;

@@ -8,7 +8,8 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do portfolio" src="preview.png" width="100%">
+  <img alt="Preview do portfolio" src="./assets/preview1.png" width="100%">
+  <img alt="Preview do portfolio" src="./assets/preview2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
