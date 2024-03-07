@@ -128,3 +128,13 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1200px) {
+  .conteudo {
+    flex-direction: column-reverse;
+    margin: 5%;
+  }
+  .nav-bar {
+    padding: 0;
+  }
+}
